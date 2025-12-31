@@ -2,6 +2,9 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=tobie-d.Bin2Dec)
+
+
 
 This is a simple python program based off of the very first program from the [app-ideas](https://github.com/florinpop17/app-ideas/tree/master) repository.
 
