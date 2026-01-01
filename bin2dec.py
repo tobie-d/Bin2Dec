@@ -8,7 +8,9 @@ def convert(num):
         raise ValueError("Number too long! Please only enter 8 digits.") 
     for ch in str(num): 
         if ch not in '01': #Raise error if any character is not '0' or '1'
-            raise ValueError("Invalid input! Please only enter 1s and 0s") 
+            raise ValueError("Invalid input! Please only enter 1s and 0s")
+    if num == "":
+        raise ValueError("Invalid Input! Please enter a binary number")
          
     bistr = str(num) #Converts input to string so it can be reversed
     for c in reversed(bistr): #Loops through the number and processes them from LSB to MSB
