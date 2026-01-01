@@ -9,7 +9,7 @@ def convert(num):
     for ch in str(num): 
         if ch not in '01': #Raise error if any character is not '0' or '1'
             raise ValueError("Invalid input! Please only enter 1s and 0s")
-    if num == "":
+    if num == "": #Raise an error if the input is empty
         raise ValueError("Invalid Input! Please enter a binary number")
          
     bistr = str(num) #Converts input to string so it can be reversed
@@ -34,3 +34,4 @@ if __name__ == "__main__": #Checks its being ran as a file
         print(convert(num)) #Calls convert() and prints result
     except ValueError as e: #If any errors have occurred, print it as e
         print(e)
+
