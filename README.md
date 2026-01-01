@@ -28,6 +28,8 @@ This is a simple python program based off of the very first program from the [ap
 
 ## How to use as a library
 
+Make sure the bin2dec.py file is in the same directory
+
 ``` python
 from bin2dec import convert
 
