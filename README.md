@@ -14,7 +14,7 @@ This is a simple python program based off of the very first program from the [ap
 
 - Converts binary to decimal
 - Validates input (Only accepts 0s and 1s) and checks if it is longer than 8 digits
-- Raises errors for an invalid input
+- Raises errors for an invalid/empty input
 - It also works as a library (convert() function) or by itself
 
 ---
@@ -23,7 +23,7 @@ This is a simple python program based off of the very first program from the [ap
 
 1. Make sure you have python installed
 2. Clone this repository or download the bin2dec.py file
-3. Run the command 'python bin2dec.py' in cmd or equivilent
+3. Run the command 'python bin2dec.py' in cmd or equivalent
 4. Enter binary number when prompted
 
 ## How to use as a library
