@@ -39,5 +39,5 @@ print(number) #This will output 11 if ran
 ---
 
 ### Author
-Tobie Denby
+Tobie
 
